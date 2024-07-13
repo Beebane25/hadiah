@@ -11,4 +11,4 @@ def hadiah():
     return render_template('hadiah.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,'0.0.0.0')
